@@ -2,9 +2,9 @@ name: CI to Docker Hub Changed PAT
 
 on:
   push:
-    tags: # ensures that the main CI will only trigger if we tag our commits with Vn.n.n.
-      - "v*.*.*"
-    #branches: [ main ]
+    # tags: # ensures that the main CI will only trigger if we tag our commits with Vn.n.n.
+    #   - "v*.*.*"
+    branches: [ main ]
     
 
 jobs:
